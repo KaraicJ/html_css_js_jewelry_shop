@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cormorant Garamond", sans-serif;
+}
+
+/* POCETAK HERO SEKCIJE */
+#hero-section{
+    background: url("./images/pozadina.jpg") 
+    no-repeat center/cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#hero-content{
+    padding: 50px;
+    margin: 0 auto;
+    width: 80%;
+    font-size: large;
+    background-color: rgb(139, 148, 116, 0.5);
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px rgb(255, 255, 255, 0.5);
+}
+
+h1{
+    font-family: "Rouge Script", cursive;
+    font-size: 50px;
+}
+
+/* KRAJ HERO SEKCIJE */
+
