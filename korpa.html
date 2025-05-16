@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korpa</title>
+    <script src="https://kit.fontawesome.com/959d54cf7c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/korpa.css">
+</head>
+<body>
+<section class="korpa-section">
+
+        <h2>Proizvodi u korpi</h2>
+
+        <div class="sviproivodiukorpi">
+            <table>
+
+                 <thead><tr>
+                    <th>Proizvod</th>
+                    <th>Slika</th>
+                    <th>Cena</th>
+                    <th>Količina</th>
+                    <th>Ukupno</th>
+                    <th>Obriši</th>
+                </tr></thead>
+
+                <tbody>
+                <tr>
+                    <td>Amara</td>
+                    <td><img src="./images/narukvica.jpg" alt="Narukvica"></td>
+                    <td>4000 din</td>
+                    <td><input type="number" name="kolicina-narukvica" id="kolicina-narukvica" min="0" value="1"></td>
+                    <td>4000 din</td>
+                    <td><button class="obrisi"><i class="fa-solid fa-trash"></i></button></td>
+                </tr>
+
+                <tr>
+                    <td>Eterna</td>
+                    <td><img src="./images/ogrlica.jpg" alt="Ogrlica"></td>
+                    <td>5900 din</td>
+                    <td><input type="number" name="kolicina-orglica" id="kolicina-ogrlica" min="0" value="2"></td>
+                    <td>11800 din</td>
+                    <td><button class="obrisi"><i class="fa-solid fa-trash"></i></button></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </section> 
+
+    
+</body>
+</html>
