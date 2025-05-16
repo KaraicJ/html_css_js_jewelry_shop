@@ -157,3 +157,29 @@ h2{
 
 /* KRAJ BEST SELLER SEKCIJE */
 
+/* POCETAK O NAMA SEKCIJE */
+
+.o-nama-section{
+    background-color: #edc967d7;
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px auto;
+    border-radius: 0px 30px 30px 0px;
+    box-shadow: 10px 15px 15px rgba(100, 95, 21, 0.5);
+}
+
+.o-nama-tekst{
+    padding: 40px;
+    width: 90%;
+    font-size: 1.2rem;
+}
+
+.o-nama-slika img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0px 30px 30px 0px;
+}
+
+/* KRAJ O NAMA SEKCIJE */
