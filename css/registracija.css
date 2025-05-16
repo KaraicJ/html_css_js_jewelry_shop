@@ -1,0 +1,93 @@
+body{
+    background-image: url(https://i.pinimg.com/736x/49/f1/7e/49f17e290cc47cd4afe6dd2f7757c622.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 1.2rem;
+}
+
+h2{
+    font-family: "Lavishly Yours", cursive;
+    font-size: 3rem;
+    margin: 10px;
+}
+
+.registracija-section{
+    background-color: #d4cca580;
+    margin: 50px auto;
+    padding: 30px;
+    max-width: 600px;
+    border-radius: 30px;
+}
+
+.input-group{
+    background-color: #a09a7b80;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.input-group i{
+    padding: 10px;
+    font-size: 15px;
+}
+
+.input-group input{
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.input-group input:focus{
+    outline: none;
+    border: none;
+}
+
+.input-group select{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 1.1rem;
+}
+
+input::placeholder{
+    color: black;
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 1.1rem;
+}
+
+.dugme-submit{
+    background-image: linear-gradient(to right, #edc967d7, #8a753bd7);
+    display: block;
+    margin-left: auto;
+    padding: 8px;
+    border-radius: 8px;
+    color: black;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 4px 4px #7c6935d7;
+    font-family: "Cormorant Garamond", sans-serif;
+    font-weight: bolder;
+}
+
+.dugme-submit:hover{
+    background-image: linear-gradient(to right, #8a753bd7, #edc967d7);
+    transform: translateY(-2px);
+}
+
+p{
+    padding-left: 20px;
+}
+
+a{
+    color: rgb(31, 29, 29);
+}
