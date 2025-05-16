@@ -263,3 +263,69 @@ h2{
 }
 
 /* KRAJ PREPORUKE SEKCIJE */
+
+/* POCETAK ZASTO BAS MI SEKCIJE */
+
+.zasto-bas-mi-section{
+    margin: 50px auto;
+    padding: 50px;
+    background-color: #edc967d7;
+    max-width: 90%;
+    border-radius: 30px;
+    box-shadow: 6px 9px 15px 5px #726131d7;
+}
+
+.zasto-bas-mi-grid{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid: 20px;
+    margin: 10px;
+}
+
+.slika img{
+    width: 30vh;
+    height: auto;
+    border-radius: 20px;
+    margin: 10px;
+    border-radius: 20px ;
+    border: solid #ad934bd7;
+    box-shadow: 4px 6px 6px #8f793ed7;
+}
+
+.slika{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.razlog{
+    background-color: #5c3f2d;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #edc967d7;
+    border: solid #edc967d7;
+}
+
+.kolona1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #8f793ed7;
+    background-color: #c9aa57d7;
+    border-radius: 20px 0 0 20px;
+}
+
+.kolona1 i{
+    font-size: 1.5rem;
+}
+
+.kolona2{
+    padding: 10px;
+}
+
+/* KRAJ ZASTO BAS MI SEKCIJE */
