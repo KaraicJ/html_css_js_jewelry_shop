@@ -89,4 +89,71 @@ h2{
     background-color: #A35864;
 }
 
-/* KRAJ UKUSA */
+/* KRAJ PROIZVODA */
+
+/* POCETAK BEST SELLER SEKCIJE */
+
+.best-seller-section{
+    background-color: rgba(173, 182, 150, 0.5);
+    text-align: center;
+    padding: 20px;
+}
+
+.best-seller-section h2{
+   color: #edc967d7; 
+}
+
+.tekst{
+    font-size: 1.2rem;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.best-seller-content img{
+    margin: 15px;
+    height: 50vh;
+    border-radius: 20px;
+    border: 2px solid rgba(126, 133, 109, 0.267);
+    box-shadow: 4px 6px 6px rgba(54, 56, 47, 0.233); 
+}
+
+.cena{
+    font-size: 1.5rem;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 7px;
+}
+
+.best-seller-section{
+    position: relative;
+}
+
+.stiker-novo{
+    position: absolute;
+    top: 20px;
+    left: 35vh;
+    padding: 5px 10px;
+    background-color: #edc967d7;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    box-shadow: 3px 6px 7px #aa9049d7;
+    transform-origin: top center;
+    animation: swing 1.5s infinite linear;
+}
+
+@keyframes swing {
+    0%   { transform: rotate(0deg); }
+    25%  { transform: rotate(5deg); }
+    50%  { transform: rotate(0deg); }
+    75%  { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+    
+}
+
+/* KRAJ BEST SELLER SEKCIJE */
+
