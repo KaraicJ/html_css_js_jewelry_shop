@@ -7,7 +7,7 @@
 }
 
 /* POCETAK HERO SEKCIJE */
-#hero-section{
+.hero-section{
     background: url("https://i.pinimg.com/736x/aa/70/bd/aa70bddf588809111aecfa14d3720863.jpg") no-repeat center/cover;
     height: 80vh;
     display: flex;
@@ -16,7 +16,7 @@
     text-align: center;
 }
 
-#hero-content{
+.hero-content{
     padding: 50px;
     margin: 0 auto;
     width: 80%;
@@ -329,3 +329,65 @@ h2{
 }
 
 /* KRAJ ZASTO BAS MI SEKCIJE */
+
+@media (max-width: 768px) {
+  .hero-content {
+    width: 90%;
+    padding: 20px;
+  } 
+
+  h1{
+    font-size: 3rem;
+  }
+
+  h2{
+    font-size: 2.5rem;
+  }
+
+  .hero-section {
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .proizvodi-grid{
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .proizvodi-box img{
+    height: 150px;
+    width: 150px;
+  }
+
+  .stiker-novo{
+    top: 10px;
+    left: 20px;
+  }
+
+  .tekst{
+    font-size: 0.9rem;
+    width: 90%;
+  }
+
+  .best-seller-section h2{
+    margin-top: 30px;
+  }
+
+  .o-nama-section{
+    grid-template-columns: 1fr;
+  }
+
+  .o-nama-slika img{
+    border-radius: 20px;
+  }
+
+  .preporuke-grid{
+    grid-template-columns: 1fr;
+  }
+
+  .slika{
+    display: none;
+  }
+}

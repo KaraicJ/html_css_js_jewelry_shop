@@ -82,3 +82,44 @@ h2{
     font-size: 1.5rem;
     color: #998243d7;
 }
+
+@media (max-width: 768px) {
+    h2{
+        font-size: 3.5rem;
+    }
+    .ponuda-section {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .sviproizvodi {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proizvod {
+        width: 90%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .proizvod img {
+        width: 30vh;
+        height: auto;
+    }
+
+    .dodajukorpu {
+        width: 70%;
+    }
+}
+
+@media (max-width: 480px){
+
+    h2{
+        font-size: 3rem;
+    }
+
+     .dodajukorpu {
+        width: 90%;
+    }
+}

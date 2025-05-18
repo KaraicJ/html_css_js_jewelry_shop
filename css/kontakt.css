@@ -27,7 +27,7 @@ h2{
 }
 
 input, textarea{
-    background-color: rgb(124, 120, 109);
+    background-color: rgb(187, 181, 166);
     padding: 10px;
     border-radius: 5px;
     margin: 5px auto;
@@ -172,7 +172,7 @@ iframe{
 }
 
 .svapitanja{
-    max-width: 75%;
+    max-width: 85%;
     padding: 10px;
     margin: 10px auto;
     border-radius: 10px;
@@ -199,4 +199,21 @@ iframe{
     margin: 10px;
     border-radius: 10px;
     border-left: 4px solid #d3a016d7;
+}
+
+@media (max-width: 768px){
+
+    h2{
+        font-size: 2.5rem;
+    }
+    .socials{
+    grid-template-columns: 1fr;
+    } 
+
+    .mapa-grid{
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    }
 }

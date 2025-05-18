@@ -68,3 +68,29 @@ input{
     padding: 5px;
 
 }
+
+@media (max-width: 768px) {
+   table, thead, tbody, th, td, tr {
+        display: block;
+        width: 100%;
+        border: none;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tr {
+        border: 1px solid #edc967d7;
+        border-radius: 10px;
+        box-shadow: 2px 4px 5px #947e40d7;
+        margin: 10px auto;
+        text-align: center; 
+    }
+}
+
+@media (max-width: 480px){
+    h2{
+        font-size: 2.5rem;
+    }
+}
